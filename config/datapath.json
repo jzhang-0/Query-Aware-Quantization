@@ -1,0 +1,74 @@
+{
+    "LastFM32D": [
+        {
+            "data": "data/LastFM/LastFM_data32D.npy",
+            "queries": "data/LastFM/queries_32D.npy",
+            "val": "data/LastFM/val_32D.npy",
+            "samples": "data/LastFM/sample_queries32D.npy",
+            "top100": "data/LastFM/true_neighbors_top100_32D.npy"
+        }
+    ],
+    "LastFM100D": [
+        {
+            "data": "data/LastFM100D/LastFM_data100D.npy",
+            "queries": "data/LastFM100D/queries_100D.npy",
+            "val": "data/LastFM100D/validation_set.npy",
+            "samples": "data/LastFM100D/heldout_set.npy",
+            "top100": "data/LastFM100D/true_neighbors_top100_100D.npy"
+        }
+    ],    
+    "EchoNest":[
+        {
+            "data": "data/EchoNest/EchoNest_data.npy",
+            "queries": "data/EchoNest/queries.npy",
+            "val": "data/EchoNest/val.npy",
+            "samples": "data/EchoNest/sample_queries.npy",
+            "top100": "data/EchoNest/true_neighbors_top100.npy"
+        }
+    ],
+    "music100":[
+        {
+            "data": "data/music100/database.npy",
+            "queries": "data/music100/queries.npy",
+            "val": "data/music100/val1k.npy",
+            "samples": "data/music100/sample_queries4k.npy",
+            "top100": "data/music100/top100.npy"
+        }
+    ],
+    "music100_433":[
+        {
+            "data": "data/music100/database.npy",
+            "queries": "data/music100/user_vecs_spilt_433/queries3k.npy",
+            "val": "data/music100/user_vecs_spilt_433/val3k.npy",
+            "samples": "data/music100/user_vecs_spilt_433/sample_queries4k.npy",
+            "top100": "data/music100/user_vecs_spilt_433/top100_3k.npy"
+        }
+    ],
+    "YahooMusic":[
+        {
+            "data": "data/YahooMusic/items.npy",
+            "queries": "data/YahooMusic/queries.npy",
+            "val": "data/YahooMusic/val.npy",
+            "samples": "data/YahooMusic/sample_queries.npy",
+            "top100": "data/YahooMusic/true_neighbors_top100.npy"
+        }
+    ],
+    "glove":[
+        {
+            "data":"data/glove/glove-100-angular-normalized.npy",
+            "queries":"data/glove/queries.npy",
+            "top100":"data/glove/top100.npy",
+            "samples":"data/glove/sample_queries.npy",
+            "val":"data/glove/val.npy"            
+        }
+    ],
+    "glove_mips":[
+        {
+            "data":"data/glove_mips/glove.npy",
+            "queries":"data/glove_mips/queries_test.npy",
+            "top100":"data/glove_mips/tr100_test.npy",
+            "samples":"data/glove_mips/queries_heldout.npy",
+            "val":"data/glove_mips/queries_val.npy"            
+        }
+    ]
+}
