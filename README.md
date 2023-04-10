@@ -1,5 +1,5 @@
 ## Intro.
-This is the code of Query-Aware Quantization for Maxumun Inner Product Search. I'm the first author.
+This is the code of Query-Aware Quantization for Maximum Inner Product Search. I'm the first author.
 
 The proposed method is implemented by Julia and all basleines are implmented by Python.
 
