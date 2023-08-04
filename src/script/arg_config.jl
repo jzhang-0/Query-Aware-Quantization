@@ -45,29 +45,36 @@ function config!(s)
             help = "M"
             arg_type = Int
             default = -1
+            help = "the number of codebooks"
+
         "--Ks"
             help = "Ks"
             arg_type = Int
             default = -1
+            help = "the number of codewords in each codebook"
         
         "--datan"
             help = "data name"
             arg_type = String
             default = "-1"
+            help = "read datapath in config/datapath.json"
         
         "--batch_size","-b"
             arg_type = Int
             default = -1
+            help = "the number of samples in one sample"
 
         "--exp_id","-i"
             help = "exp id"
             arg_type = String
             default = "0"
+            help = "id for recoed experiments"
 
         "--metric","-m"
             help = "metric, recall or dot_product"
             arg_type = String
-            default = "recall"        
+            default = "recall" 
+            help = "deprecated"       
     end
 end
 
